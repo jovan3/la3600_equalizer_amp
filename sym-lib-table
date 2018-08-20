@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name la3600)(type Legacy)(uri /home/yovan/Documents/electronics/kicad/la3600_equalizer_amp/lm3600_equalizer_amp/la3600.lib)(options "")(descr ""))
+  (lib (name JACK_TRS)(type Legacy)(uri /home/yovan/Documents/electronics/kicad/minified_lm386_headphones_amplifier/JACK_TRS.lib)(options "")(descr ""))
+)
