@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:la3600_equalizer_amp-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -85,7 +86,7 @@ U 1 1 5B7A7DF3
 P 9100 2250
 F 0 "U3" H 9350 2500 50  0000 L CNN
 F 1 "LM386" H 9300 2400 50  0000 L CNN
-F 2 "Package_DIP:DIP-6_W7.62mm_Socket" H 9200 2350 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 9200 2350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm386.pdf" H 9300 2450 50  0001 C CNN
 	1    9100 2250
 	1    0    0    -1  
@@ -1146,4 +1147,12 @@ Wire Wire Line
 Wire Wire Line
 	1400 2050 1400 800 
 Connection ~ 1400 800 
+Text GLabel 6500 2050 2    50   Input ~ 0
+GND
+Text GLabel 6800 4900 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6450 2050 6500 2050
+Wire Wire Line
+	6750 4900 6800 4900
 $EndSCHEMATC
