@@ -81,7 +81,7 @@ F 3 "" H 5450 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Audio:LM386 U3
+L la3600_equalizer_amp-rescue:LM386-Amplifier_Audio U3
 U 1 1 5B7A7DF3
 P 9100 2250
 F 0 "U3" H 9350 2500 50  0000 L CNN
@@ -845,7 +845,7 @@ Wire Wire Line
 	9550 2250 9750 2250
 Connection ~ 9550 2250
 $Comp
-L Amplifier_Audio:LM386 U4
+L la3600_equalizer_amp-rescue:LM386-Amplifier_Audio U4
 U 1 1 5B99DB61
 P 9100 4350
 F 0 "U4" H 9300 4600 50  0000 L CNN

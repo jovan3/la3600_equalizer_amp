@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~65~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 6)
+    (drawings 7)
     (tracks 633)
     (zones 0)
     (modules 54)
@@ -2054,7 +2054,7 @@
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3*2mm^2, Capacitor")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3mm width 2mm Capacitor")
     (path /5B7AFE43)
-    (fp_text reference C21 (at 1.25 -2.25) (layer F.SilkS)
+    (fp_text reference C21 (at 4.826 0.127) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 680pF (at 1.25 2.25) (layer F.Fab)
@@ -2243,7 +2243,7 @@
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3*2mm^2, Capacitor")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3mm width 2mm Capacitor")
     (path /5B7AF263)
-    (fp_text reference C23 (at 1.25 -2.25 180) (layer F.SilkS)
+    (fp_text reference C23 (at -2.326 -0.254 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 6.8nF (at 1.25 2.25 180) (layer F.Fab)
@@ -4190,6 +4190,9 @@
     )
   )
 
+  (gr_text "Yovan Naumovski 2018" (at 102.108 211.328) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 47.752 216.408) (end 118.872 216.408) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 118.872 17.78) (end 118.872 216.408) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 23.876 17.78) (end 118.872 17.78) (layer Edge.Cuts) (width 0.15))
